@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18006BB62BB2A64800F4A175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18006BB52BB2A64800F4A175 /* AppDelegate.swift */; };
+		18006BB82BB2A64800F4A175 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18006BB72BB2A64800F4A175 /* SceneDelegate.swift */; };
+		18006BBA2BB2A64800F4A175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18006BB92BB2A64800F4A175 /* ViewController.swift */; };
+		18006BBD2BB2A64800F4A175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18006BBB2BB2A64800F4A175 /* Main.storyboard */; };
+		18006BC02BB2A64800F4A175 /* HealthAppGOQii.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18006BBE2BB2A64800F4A175 /* HealthAppGOQii.xcdatamodeld */; };
+		18006BC22BB2A64A00F4A175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18006BC12BB2A64A00F4A175 /* Assets.xcassets */; };
+		18006BC52BB2A64A00F4A175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18006BC32BB2A64A00F4A175 /* LaunchScreen.storyboard */; };
+		18006BCE2BB2B3E500F4A175 /* AnimationHealth.json in Resources */ = {isa = PBXBuildFile; fileRef = 18006BCD2BB2B3E500F4A175 /* AnimationHealth.json */; };
+		18006BDB2BB2B4B600F4A175 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18006BD42BB2B4B600F4A175 /* CustomUIView.swift */; };
+		18006BDF2BB2B63A00F4A175 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18006BDE2BB2B63A00F4A175 /* CircularProgressBar.swift */; };
+		18006BE72BB2C4E900F4A175 /* water2.json in Resources */ = {isa = PBXBuildFile; fileRef = 18006BE62BB2C4E900F4A175 /* water2.json */; };
+		18006BED2BB2FE9000F4A175 /* WaterIntakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18006BEC2BB2FE9000F4A175 /* WaterIntakeViewController.swift */; };
+		18006BF02BB30EDD00F4A175 /* BarChartHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18006BEF2BB30EDD00F4A175 /* BarChartHelper.swift */; };
+		18006BF32BB3155100F4A175 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18006BF22BB3155100F4A175 /* UIView+Extension.swift */; };
+		18006BF62BB3245400F4A175 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18006BF52BB3245400F4A175 /* CoreDataHelper.swift */; };
+		18006BF92BB33A2700F4A175 /* Water+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18006BF72BB33A2700F4A175 /* Water+CoreDataProperties.swift */; };
+		18006BFA2BB33A2700F4A175 /* Water+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18006BF82BB33A2700F4A175 /* Water+CoreDataClass.swift */; };
+		18006BFD2BB33E3100F4A175 /* WaterIntakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18006BFC2BB33E3100F4A175 /* WaterIntakeViewModel.swift */; };
+		18362F292BB3E30600A20D1B /* WaterTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18362F282BB3E30600A20D1B /* WaterTrackerViewController.swift */; };
+		18362F2F2BB3E41E00A20D1B /* WaterTrackerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18362F2D2BB3E41E00A20D1B /* WaterTrackerTableViewCell.swift */; };
+		18362F302BB3E41E00A20D1B /* WaterTrackerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18362F2E2BB3E41E00A20D1B /* WaterTrackerTableViewCell.xib */; };
+		18362F322BB3E86800A20D1B /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18362F312BB3E86800A20D1B /* UITableView+Extension.swift */; };
+		18362F342BB3FD0E00A20D1B /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18362F332BB3FD0E00A20D1B /* Toast.swift */; };
+		18362F382BB402DD00A20D1B /* bottle.json in Resources */ = {isa = PBXBuildFile; fileRef = 18362F372BB402DD00A20D1B /* bottle.json */; };
+		18362F3A2BB4035500A20D1B /* water.json in Resources */ = {isa = PBXBuildFile; fileRef = 18362F392BB4035500A20D1B /* water.json */; };
+		18362F3C2BB4304B00A20D1B /* HealthKitManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18362F3B2BB4304B00A20D1B /* HealthKitManger.swift */; };
+		1885269C2BB477AD00910DF3 /* LottieHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885269B2BB477AD00910DF3 /* LottieHelper.swift */; };
+		28C91EFF3957C1404CAF025F /* Pods_HealthAppGOQii.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031E4C4929B3CDE86F5D8A32 /* Pods_HealthAppGOQii.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0042782FA6526D098457A8ED /* Pods-HealthAppGOQii.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthAppGOQii.release.xcconfig"; path = "Target Support Files/Pods-HealthAppGOQii/Pods-HealthAppGOQii.release.xcconfig"; sourceTree = "<group>"; };
+		031E4C4929B3CDE86F5D8A32 /* Pods_HealthAppGOQii.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthAppGOQii.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18006BB22BB2A64800F4A175 /* HealthAppGOQii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthAppGOQii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18006BB52BB2A64800F4A175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18006BB72BB2A64800F4A175 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18006BB92BB2A64800F4A175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18006BBC2BB2A64800F4A175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18006BBF2BB2A64800F4A175 /* HealthAppGOQii.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthAppGOQii.xcdatamodel; sourceTree = "<group>"; };
+		18006BC12BB2A64A00F4A175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18006BC42BB2A64A00F4A175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18006BC62BB2A64A00F4A175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18006BCD2BB2B3E500F4A175 /* AnimationHealth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AnimationHealth.json; sourceTree = "<group>"; };
+		18006BD42BB2B4B600F4A175 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		18006BDE2BB2B63A00F4A175 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		18006BE62BB2C4E900F4A175 /* water2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = water2.json; sourceTree = "<group>"; };
+		18006BEC2BB2FE9000F4A175 /* WaterIntakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntakeViewController.swift; sourceTree = "<group>"; };
+		18006BEF2BB30EDD00F4A175 /* BarChartHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartHelper.swift; sourceTree = "<group>"; };
+		18006BF22BB3155100F4A175 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		18006BF52BB3245400F4A175 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		18006BF72BB33A2700F4A175 /* Water+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Water+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		18006BF82BB33A2700F4A175 /* Water+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Water+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18006BFC2BB33E3100F4A175 /* WaterIntakeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterIntakeViewModel.swift; sourceTree = "<group>"; };
+		18362F282BB3E30600A20D1B /* WaterTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerViewController.swift; sourceTree = "<group>"; };
+		18362F2D2BB3E41E00A20D1B /* WaterTrackerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerTableViewCell.swift; sourceTree = "<group>"; };
+		18362F2E2BB3E41E00A20D1B /* WaterTrackerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaterTrackerTableViewCell.xib; sourceTree = "<group>"; };
+		18362F312BB3E86800A20D1B /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		18362F332BB3FD0E00A20D1B /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		18362F372BB402DD00A20D1B /* bottle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bottle.json; sourceTree = "<group>"; };
+		18362F392BB4035500A20D1B /* water.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = water.json; sourceTree = "<group>"; };
+		18362F3B2BB4304B00A20D1B /* HealthKitManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManger.swift; sourceTree = "<group>"; };
+		18362F3D2BB431F500A20D1B /* HealthAppGOQii.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthAppGOQii.entitlements; sourceTree = "<group>"; };
+		1885269B2BB477AD00910DF3 /* LottieHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieHelper.swift; sourceTree = "<group>"; };
+		55DBB4245392DB933689FF10 /* Pods-HealthAppGOQii.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthAppGOQii.debug.xcconfig"; path = "Target Support Files/Pods-HealthAppGOQii/Pods-HealthAppGOQii.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18006BAF2BB2A64800F4A175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C91EFF3957C1404CAF025F /* Pods_HealthAppGOQii.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A34ACFB8DC1FC13CA126024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				031E4C4929B3CDE86F5D8A32 /* Pods_HealthAppGOQii.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18006BA92BB2A64800F4A175 = {
+			isa = PBXGroup;
+			children = (
+				18006BB42BB2A64800F4A175 /* HealthAppGOQii */,
+				18006BB32BB2A64800F4A175 /* Products */,
+				671105F564B5785119F11277 /* Pods */,
+				0A34ACFB8DC1FC13CA126024 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18006BB32BB2A64800F4A175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18006BB22BB2A64800F4A175 /* HealthAppGOQii.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18006BB42BB2A64800F4A175 /* HealthAppGOQii */ = {
+			isa = PBXGroup;
+			children = (
+				18362F3D2BB431F500A20D1B /* HealthAppGOQii.entitlements */,
+				18006BEE2BB30EC400F4A175 /* SupportingFiles */,
+				18006BEA2BB2FE6200F4A175 /* Views */,
+				18006BE92BB2FE4600F4A175 /* AppFiles */,
+				18006BBB2BB2A64800F4A175 /* Main.storyboard */,
+				18006BC12BB2A64A00F4A175 /* Assets.xcassets */,
+				18006BC62BB2A64A00F4A175 /* Info.plist */,
+				18006BBE2BB2A64800F4A175 /* HealthAppGOQii.xcdatamodeld */,
+			);
+			path = HealthAppGOQii;
+			sourceTree = "<group>";
+		};
+		18006BCC2BB2B3DB00F4A175 /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				18362F392BB4035500A20D1B /* water.json */,
+				18362F372BB402DD00A20D1B /* bottle.json */,
+				18006BE62BB2C4E900F4A175 /* water2.json */,
+				18006BCD2BB2B3E500F4A175 /* AnimationHealth.json */,
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		18006BCF2BB2B4B600F4A175 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				18006BD42BB2B4B600F4A175 /* CustomUIView.swift */,
+				18006BDE2BB2B63A00F4A175 /* CircularProgressBar.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		18006BE92BB2FE4600F4A175 /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				18006BB52BB2A64800F4A175 /* AppDelegate.swift */,
+				18006BB72BB2A64800F4A175 /* SceneDelegate.swift */,
+				18006BC32BB2A64A00F4A175 /* LaunchScreen.storyboard */,
+			);
+			path = AppFiles;
+			sourceTree = "<group>";
+		};
+		18006BEA2BB2FE6200F4A175 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18362F2A2BB3E3DE00A20D1B /* Views */,
+				18006BFB2BB33E1B00F4A175 /* ViewModel */,
+				18006BEB2BB2FE7500F4A175 /* Controller */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18006BEB2BB2FE7500F4A175 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18006BB92BB2A64800F4A175 /* ViewController.swift */,
+				18006BEC2BB2FE9000F4A175 /* WaterIntakeViewController.swift */,
+				18362F282BB3E30600A20D1B /* WaterTrackerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18006BEE2BB30EC400F4A175 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				18006BCF2BB2B4B600F4A175 /* Custom */,
+				18006BCC2BB2B3DB00F4A175 /* Lotties */,
+				18006BF42BB3244400F4A175 /* Helper */,
+				18006BF12BB3153900F4A175 /* extension */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		18006BF12BB3153900F4A175 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				18006BF22BB3155100F4A175 /* UIView+Extension.swift */,
+				18362F312BB3E86800A20D1B /* UITableView+Extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		18006BF42BB3244400F4A175 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				18006BF82BB33A2700F4A175 /* Water+CoreDataClass.swift */,
+				18006BF72BB33A2700F4A175 /* Water+CoreDataProperties.swift */,
+				18362F332BB3FD0E00A20D1B /* Toast.swift */,
+				18006BEF2BB30EDD00F4A175 /* BarChartHelper.swift */,
+				18006BF52BB3245400F4A175 /* CoreDataHelper.swift */,
+				18362F3B2BB4304B00A20D1B /* HealthKitManger.swift */,
+				1885269B2BB477AD00910DF3 /* LottieHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		18006BFB2BB33E1B00F4A175 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18006BFC2BB33E3100F4A175 /* WaterIntakeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18362F2A2BB3E3DE00A20D1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18362F2B2BB3E3EC00A20D1B /* cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18362F2B2BB3E3EC00A20D1B /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				18362F2C2BB3E3F400A20D1B /* TableView */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		18362F2C2BB3E3F400A20D1B /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				18362F2D2BB3E41E00A20D1B /* WaterTrackerTableViewCell.swift */,
+				18362F2E2BB3E41E00A20D1B /* WaterTrackerTableViewCell.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		671105F564B5785119F11277 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55DBB4245392DB933689FF10 /* Pods-HealthAppGOQii.debug.xcconfig */,
+				0042782FA6526D098457A8ED /* Pods-HealthAppGOQii.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18006BB12BB2A64800F4A175 /* HealthAppGOQii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18006BC92BB2A64A00F4A175 /* Build configuration list for PBXNativeTarget "HealthAppGOQii" */;
+			buildPhases = (
+				D9449808016465D6BE15300A /* [CP] Check Pods Manifest.lock */,
+				18006BAE2BB2A64800F4A175 /* Sources */,
+				18006BAF2BB2A64800F4A175 /* Frameworks */,
+				18006BB02BB2A64800F4A175 /* Resources */,
+				C2A82C44CA3814FB27956212 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthAppGOQii;
+			productName = HealthAppGOQii;
+			productReference = 18006BB22BB2A64800F4A175 /* HealthAppGOQii.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18006BAA2BB2A64800F4A175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					18006BB12BB2A64800F4A175 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 18006BAD2BB2A64800F4A175 /* Build configuration list for PBXProject "HealthAppGOQii" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18006BA92BB2A64800F4A175;
+			productRefGroup = 18006BB32BB2A64800F4A175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18006BB12BB2A64800F4A175 /* HealthAppGOQii */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18006BB02BB2A64800F4A175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18006BE72BB2C4E900F4A175 /* water2.json in Resources */,
+				18006BC52BB2A64A00F4A175 /* LaunchScreen.storyboard in Resources */,
+				18362F3A2BB4035500A20D1B /* water.json in Resources */,
+				18006BC22BB2A64A00F4A175 /* Assets.xcassets in Resources */,
+				18006BCE2BB2B3E500F4A175 /* AnimationHealth.json in Resources */,
+				18362F382BB402DD00A20D1B /* bottle.json in Resources */,
+				18362F302BB3E41E00A20D1B /* WaterTrackerTableViewCell.xib in Resources */,
+				18006BBD2BB2A64800F4A175 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2A82C44CA3814FB27956212 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthAppGOQii/Pods-HealthAppGOQii-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthAppGOQii/Pods-HealthAppGOQii-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthAppGOQii/Pods-HealthAppGOQii-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9449808016465D6BE15300A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthAppGOQii-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18006BAE2BB2A64800F4A175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18006BF32BB3155100F4A175 /* UIView+Extension.swift in Sources */,
+				18006BED2BB2FE9000F4A175 /* WaterIntakeViewController.swift in Sources */,
+				18006BBA2BB2A64800F4A175 /* ViewController.swift in Sources */,
+				18362F322BB3E86800A20D1B /* UITableView+Extension.swift in Sources */,
+				18362F3C2BB4304B00A20D1B /* HealthKitManger.swift in Sources */,
+				18006BF02BB30EDD00F4A175 /* BarChartHelper.swift in Sources */,
+				18362F292BB3E30600A20D1B /* WaterTrackerViewController.swift in Sources */,
+				18006BB62BB2A64800F4A175 /* AppDelegate.swift in Sources */,
+				18006BFD2BB33E3100F4A175 /* WaterIntakeViewModel.swift in Sources */,
+				18006BB82BB2A64800F4A175 /* SceneDelegate.swift in Sources */,
+				18362F342BB3FD0E00A20D1B /* Toast.swift in Sources */,
+				18006BF62BB3245400F4A175 /* CoreDataHelper.swift in Sources */,
+				1885269C2BB477AD00910DF3 /* LottieHelper.swift in Sources */,
+				18006BFA2BB33A2700F4A175 /* Water+CoreDataClass.swift in Sources */,
+				18006BC02BB2A64800F4A175 /* HealthAppGOQii.xcdatamodeld in Sources */,
+				18006BDB2BB2B4B600F4A175 /* CustomUIView.swift in Sources */,
+				18362F2F2BB3E41E00A20D1B /* WaterTrackerTableViewCell.swift in Sources */,
+				18006BF92BB33A2700F4A175 /* Water+CoreDataProperties.swift in Sources */,
+				18006BDF2BB2B63A00F4A175 /* CircularProgressBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18006BBB2BB2A64800F4A175 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18006BBC2BB2A64800F4A175 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18006BC32BB2A64A00F4A175 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18006BC42BB2A64A00F4A175 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18006BC72BB2A64A00F4A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18006BC82BB2A64A00F4A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18006BCA2BB2A64A00F4A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55DBB4245392DB933689FF10 /* Pods-HealthAppGOQii.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthAppGOQii/HealthAppGOQii.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthAppGOQii/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Alow health kit";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow health kit ";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "alllow djnnnndfk";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..HealthAppGOQii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18006BCB2BB2A64A00F4A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0042782FA6526D098457A8ED /* Pods-HealthAppGOQii.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthAppGOQii/HealthAppGOQii.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealthAppGOQii/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Alow health kit";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow health kit ";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "alllow djnnnndfk";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..HealthAppGOQii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18006BAD2BB2A64800F4A175 /* Build configuration list for PBXProject "HealthAppGOQii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18006BC72BB2A64A00F4A175 /* Debug */,
+				18006BC82BB2A64A00F4A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18006BC92BB2A64A00F4A175 /* Build configuration list for PBXNativeTarget "HealthAppGOQii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18006BCA2BB2A64A00F4A175 /* Debug */,
+				18006BCB2BB2A64A00F4A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18006BBE2BB2A64800F4A175 /* HealthAppGOQii.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18006BBF2BB2A64800F4A175 /* HealthAppGOQii.xcdatamodel */,
+			);
+			currentVersion = 18006BBF2BB2A64800F4A175 /* HealthAppGOQii.xcdatamodel */;
+			path = HealthAppGOQii.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18006BAA2BB2A64800F4A175 /* Project object */;
+}

@@ -1,0 +1,22 @@
+PODS:
+  - DGCharts (5.1.0):
+    - DGCharts/Core (= 5.1.0)
+  - DGCharts/Core (5.1.0)
+  - lottie-ios (4.2.0)
+
+DEPENDENCIES:
+  - DGCharts
+  - lottie-ios
+
+SPEC REPOS:
+  trunk:
+    - DGCharts
+    - lottie-ios
+
+SPEC CHECKSUMS:
+  DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
+  lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
+
+PODFILE CHECKSUM: 1160166f7f28634a71d6413c9230fc5b6acf0fc2
+
+COCOAPODS: 1.12.0

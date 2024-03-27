@@ -1,0 +1,6 @@
+framework module Pods_HealthAppGOQii {
+  umbrella header "Pods-HealthAppGOQii-umbrella.h"
+
+  export *
+  module * { export * }
+}
